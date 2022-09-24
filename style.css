@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+#container{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    background-color: #B6AFAD;
+}
+
+#navbar{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    background: #5fc400c7;
+    left: -70%;
+}
+#navbar.open{
+    left: 0%;
+}
+#logo{
+    position: relative;
+    display: flex;
+    border: 1px solid black;
+    font-family: 'Bebas Neue', cursive;
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+#item-list{
+    position: absolute;
+    border: 0px solid black;
+    top: 20%;
+    height: 80%;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#item-list li{
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    height: fit-content;
+height: 10%;
+
+}
+
+#item-list li a{
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+#item-list #item3{
+    width: 50%;
+    top: 68%;
+}
+
+#item-list #item4{
+    width: 50%;
+    left: 50%;
+    top: 100%;
+}
+
+#sign{
+    border: 1px solid black;
+    height: 9.5%;
+    position: absolute;
+    top: 90%;
+    justify-content: space-between;
+}
